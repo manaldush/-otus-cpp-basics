@@ -3,3 +3,8 @@
 Так же выделен основной код с функцией main(папка src).
 Все требуемые файлы попадают после компиляции и линковки в папку install/bin.
 Из этой папки в конечном итоге и происходит запуск.
+
+Процесс сборки
+ - cd build
+ - cmake .. -DCMAKE_INSTALL_PREFIX=full-path\-otus-cpp-basics\homework-3
+ - cmake --build . --target install
